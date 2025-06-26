@@ -1,12 +1,35 @@
-# React + Vite
+# 🏫 ABC School Registration System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **ABC School Registration System**, a responsive web application designed to simplify student registration, course viewing, and enrollment.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Student Registration and Login
+- ✅ Admin Dashboard (for managing student info)
+- ✅ Courses Listing with Icons, Cost, Duration
+- ✅ Detailed Course Pages (HTML5, CSS3, React, Python, Git, Computer Packages)
+- ✅ Embedded Enrollment Form with validation
+- ✅ Responsive Design using plain CSS
 
-## Expanding the ESLint configuration
+## 🖼️ Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Include screenshots or demo gifs of the home page, courses, and enrollment form here.
+
+## 📂 Project Structure
+
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, React Router DOM
+- **Styling**: Plain CSS
+- **Icons**: `react-icons`
+
+## 🧪 How to Run Locally
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/school-registration-system.git
+cd school-registration-system
+npm install
+npm run dev
