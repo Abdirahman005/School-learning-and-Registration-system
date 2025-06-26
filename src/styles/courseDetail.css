@@ -1,0 +1,74 @@
+.course-detail {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.course-detail h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.course-icon {
+  font-size: 2.5rem;
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.course-detail .price {
+  font-weight: bold;
+  color: #28a745;
+  margin-bottom: 1rem;
+}
+
+.course-detail p {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.modules h3 {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.modules details {
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fafafa;
+  padding: 0.8rem 1rem;
+}
+
+.modules summary {
+  font-weight: 600;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.modules p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.enroll-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 1.8rem;
+  background-color: #28a745;
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.enroll-button:hover {
+  background-color: #218838;
+}

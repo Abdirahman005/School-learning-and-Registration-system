@@ -1,0 +1,49 @@
+.enroll-form-container {
+  padding: 2rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.enroll-form-container h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.enroll-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.enroll-form input,
+.enroll-form select,
+.enroll-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.enroll-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.enroll-form button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.enroll-form button:hover {
+  background-color: #218838;
+}

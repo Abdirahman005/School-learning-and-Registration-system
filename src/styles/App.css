@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+.home {
+  text-align: center;
+  padding: 2rem;
+}
+
+.school-image {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.home-buttons .btn {
+  margin: 1rem;
+  padding: 0.6rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
