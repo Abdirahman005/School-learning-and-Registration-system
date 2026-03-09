@@ -1,7 +1,6 @@
-/* Same styling as LoginForm */
 .form {
   max-width: 400px;
-  margin: 3rem auto;
+  margin: 10rem auto; 
   padding: 2rem;
   background: rgb(175, 45, 45);
   border-radius: 8px;
@@ -13,4 +12,15 @@
 
 .form h2 {
   text-align: center;
+}
+
+.form input {
+  padding: 10px;   
+  font-size: 14px;
+}
+
+.register-box button {
+  font-size: 2rem;       
+  font-weight: bold;
+  padding: 1rem;         
 }

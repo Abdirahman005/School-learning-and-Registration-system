@@ -1,39 +1,40 @@
-.login-container {
+.form {
+  max-width: 400px;
+  margin: 10rem auto;
+  padding: 2rem;
+  background: rgb(175, 45, 45);
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 80vh;
-  background-color: rgb(175, 45, 45);
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.login-box {
-  background-color: white;
-  padding: 2rem;
-  border-radius: 8px;
-  width: 400px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.form h2 {
   text-align: center;
 }
 
-.login-box h2 {
-  margin-bottom: 1.5rem;
-}
-
-.login-box input,
-.login-box select,
-.login-box button {
+.form input,
+.form select,
+.form button {
   width: 100%;
-  padding: 0.6rem;
-  margin-bottom: 1rem;
+  padding: 12px;
+  font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-.login-box button {
+.form button {
   background-color: #ddd;
   cursor: pointer;
 }
 
-.login-box button:hover {
+.form button:hover {
   background-color: #ccc;
+}
+
+.login-box button {
+  font-size: 2rem;       
+  font-weight: bold;
+  padding: 1rem;         
 }
